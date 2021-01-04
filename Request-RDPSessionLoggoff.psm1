@@ -7,7 +7,7 @@ Start your design with writing out the examples as a functional spesification.
 .EXAMPLE
 #>
 
-function Request-CybRDPSessionLoggoff {
+function Request-RDPSessionLoggoff {
     [CmdletBinding()]
     #^ Optional ..Binding(SupportShouldProcess=$True,ConfirmImpact='Low')
     param (
